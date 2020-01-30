@@ -22,7 +22,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home"> <Link to="/">Home</Link></Navbar.Brand>
+  <Navbar.Brand href="#home"> <Link to="/scds2020">Home</Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
