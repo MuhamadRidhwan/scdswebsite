@@ -18,13 +18,13 @@ export const PreviousSCDS = () => (
     <h2>Previous SCDS</h2>
     <p></p>
     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={scds2015} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>
+          alignItems: "center", display: "flex",}}><img src={scds2015} alt="wrapkit" height= "100%" width= "100%"/></NavbarBrand>
     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={scds2016} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>
+          alignItems: "center", display: "flex",}}><img src={scds2016} alt="wrapkit" height= "100%" width= "100%"/></NavbarBrand>
     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={scds2017} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>
+          alignItems: "center", display: "flex",}}><img src={scds2017} alt="wrapkit" height= "100%" width= "100%"/></NavbarBrand>
     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={scds2018} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>      
+          alignItems: "center", display: "flex",}}><img src={scds2018} alt="wrapkit" height= "100%" width= "100%"/></NavbarBrand>      
    
   </div>
 )

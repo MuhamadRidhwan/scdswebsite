@@ -21,7 +21,7 @@ export const Contact = () => (
       <Card.Text>   
         Telephone: +603-55435329 <br/>
         Fax: +603-55435501 <br/>
-        E-mail: scds2020@fskm.uitm.edu.my <br/>
+        E-mail: scds2020@uitm.edu.my <br/>
         Office: Mon-Fri 8.00 - 17.00
       </Card.Text>
     </Card.Body>

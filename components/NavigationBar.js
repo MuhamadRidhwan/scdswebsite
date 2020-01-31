@@ -5,10 +5,20 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import logo from '../assets/images/contents/UiTM_logo.png';
+import UiTM_icon from '../assets/images/contents/UiTM_Icon.png';
 
 const Styles = styled.div`
   .navbar {
     background-color: #222;
+  }
+
+  .overlay {
+    position: relative;
+    top: 100;
+    left: 100;
+    bottom: 100;
+    right: 1000;
+    z-index: 10;
   }
 
   a, .navbar-brand .navbar-nav .nav-link .nav-dropdown {
@@ -18,12 +28,13 @@ const Styles = styled.div`
       color: white;
     }
   }
+
 `;
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar collapseOnSelect expand="lg" bg="primary" variant="white">
-      <NavbarBrand><img href='/' src={logo} alt="wrapkit" height= "100px" width= "250px" right="30px"/></NavbarBrand>
+    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" >
+      <NavbarBrand className="overlay"><img href='/' src={UiTM_icon} height= "100%" width= "100%"/></NavbarBrand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -31,7 +42,7 @@ export const NavigationBar = () => (
           <Nav.Link href="#callPapers"> <Link  style={{fontSize: '18px'}} to="/callPapers">Call for Papers</Link></Nav.Link>
           <Nav.Link href="#dates"> <Link  style={{fontSize: '18px'}} to="/dates">Important Dates</Link></Nav.Link>
           <Nav.Link href="#proceeding"> <Link  style={{fontSize: '18px'}} to="/proceeding">Proceeding</Link></Nav.Link>
-          <NavDropdown  style={{fontSize: '18px'}} title="Information" id="basic-nav-dropdown">
+          <NavDropdown style={{fontSize: '18px'}} title="Information" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#programbook"><Link style={{color: 'black'}} to="/programBook">Program Book</Link></NavDropdown.Item>
             <NavDropdown.Item href="#guideline"><Link style={{color: 'black'}} to="/submissionGuideline">Submission Guideline</Link></NavDropdown.Item>
             <NavDropdown.Item href="#feepayment"><Link style={{color: 'black'}} to="/feePayment">Fee and Payment</Link></NavDropdown.Item>

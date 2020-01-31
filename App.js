@@ -28,12 +28,15 @@ import { Venue } from './components/sectionChilds/Venue';
 import { Visa } from './components/sectionChilds/Visa';
 
 import Footer from "./components/footer";
+import UpperSection from "./components/upperSection";
+
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Router>
+        {/* <UpperSection/> */}
           <NavigationBar />
           {/* <Jumbotron /> */}
           <Layout>

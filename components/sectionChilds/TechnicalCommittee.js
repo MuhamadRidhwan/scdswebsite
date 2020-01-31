@@ -63,7 +63,7 @@ export const TechnicalCommittee = () => (
       Institut Teknologi Sepuluh Nopember <br/>
       <i> Nurbaizura Borhan </i> <br/>
       Universiti  Teknologi MARA <br/>
-      <i> Azira Mohamed Amin </i>
+      <i> Azira Mohamed Amin </i> <br/>
       Universiti  Teknologi MARA <br/> <br/>
       
       <b> Technical Program Committee </b> <br/>
@@ -75,7 +75,7 @@ export const TechnicalCommittee = () => (
       Institut Teknologi Sepuluh Nopember <br/>
       <i> Shuzlina Abdul Rahman </i> <br/>
       Universiti Teknologi MARA <br/>
-      <i> Sofianita Mutalib	</i>    
+      <i> Sofianita Mutalib	</i> <br/>  
       Universiti Teknologi MARA <br/> <br/>
 
       <b> Sponsorship and Corporate Committee </b> <br/>
@@ -103,7 +103,7 @@ export const TechnicalCommittee = () => (
       Universiti Teknologi MARA <br/>
       <i>Mohd Fikri Hadrawi </i> <br/>
       Universiti Teknologi MARA <br/>
-      <i>Muhammad Asmu’1 Abdul Rahim </i> <br/>  
+      <i>Muhammad Asmu’i Abdul Rahim </i> <br/>  
       Universiti Teknologi MARA <br/> <br/>
 
       <b> Logistics Committee </b> <br/>

@@ -14,7 +14,7 @@ export const FeePayment = () => (
     </nav>
     <h2>Fee and Payment</h2>  
     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={fee} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>
+          alignItems: "center", display: "flex",}}><img src={fee} alt="wrapkit" height= "260px" width= "500px"/></NavbarBrand>
 
     <p>
       Fees are inclusive of the following: <br/>

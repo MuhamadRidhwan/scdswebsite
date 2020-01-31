@@ -33,7 +33,11 @@
 }
 
 .nav-dropdown{
-  color: red;
+  color: white;
   font-weight: bold;
   background-color: red;
+}
+
+.font {
+  color: white;
 }

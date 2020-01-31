@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
 
-import scds2020 from './assets/images/contents/SCDS2020.jpg';
 import img1 from './assets/images/contents/ccis.png';
 import book1 from './assets/images/contents/book1.jpg';
 import book2 from './assets/images/contents/book2.png';
@@ -17,12 +16,14 @@ import sponsor from './assets/images/contents/sponsor-03.jpg';
 
 import { Jumbotron } from './components/Jumbotron';
 
+
+
 export const Home = () => (
   <div>
      {/* <NavbarBrand href="/" style={{  justifyContent: "center",
           alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand> */}
 
-    <Jumbotron />   <br/>
+    <br/><Jumbotron /> <br/>
     <h2>Introduction</h2>
       <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, SCDS2017 was successfully hosted by Universitas Gadjah Mada, Indonesia. 
           Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute ofTechnology (KYUTECH), Iizuka, Japan successfully hosted SCDS2018 from 28-29 August 2019.</p>
@@ -111,8 +112,15 @@ export const Home = () => (
                 </Container>   
 
                 <br/>       
-                <NavbarBrand href="/"><img src={sponsor} alt="wrapkit" height= "310px" width= "1120px"/></NavbarBrand>
-                    
+                {/* <NavbarBrand href="/"><img flex="1" alignSelf="stretch" src={sponsor} alt="wrapkit" height= "undefined," width= "undefined,"/></NavbarBrand>
+                     */}
+                <Container>
+                    <Row>
+                        <Col>
+                            <img src={sponsor} height="100%" width="100%"/>
+                        </Col>
+                    </Row>                 
+                </Container>                       
   </div>
 )
 

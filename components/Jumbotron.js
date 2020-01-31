@@ -3,8 +3,6 @@ import { Jumbotron as Jumbo, Container, Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
 
-import banner from '../assets/images/contents/banner-bg.jpg';
-
 import logo from '../assets/images/contents/slide-show-acds2020-bg-02.jpg';
 import img1 from '../assets/images/contents/ccis.png';
 import book1 from '../assets/images/contents/book1.jpg';
@@ -16,10 +14,11 @@ import scds2015 from '../assets/images/contents/scds2015.jpg';
 import scds2016 from '../assets/images/contents/scds2016.gif';
 import scds2017 from '../assets/images/contents/scds2017.jpg';
 import scds2018 from '../assets/images/contents/scds2018.jpg';
+import scds2020 from '../assets/images/contents/scds2020.jpg';
 
 const Styles = styled.div`
   .jumbo {
-    background: url(${banner}) no-repeat fixed bottom;
+    background: url(${logo}) no-repeat fixed bottom;
     background-size: cover;
     color: #ffffff;
     height: 300px;
@@ -53,10 +52,10 @@ export const Jumbotron = () => (
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={logo}
+          src={scds2020}
           alt="First slide"
-          width="200px"
-          height="400px"
+          width="100%"
+          height="100%"
         />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -69,8 +68,8 @@ export const Jumbotron = () => (
           className="d-block w-100"
           src={scds2015}
           alt="First slide"
-          width="200px"
-          height="404px"
+          width="100%"
+          height="100%"
         />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -83,8 +82,8 @@ export const Jumbotron = () => (
           className="d-block w-100"
           src={scds2016}
           alt="First slide"
-          width="200px"
-          height="400px"
+          width="100%"
+          height="100%"
         />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -97,8 +96,8 @@ export const Jumbotron = () => (
           className="d-block w-100"
           src={scds2017}
           alt="First slide"
-          width="200px"
-          height="400px"
+          width="100%"
+          height="100%x"
         />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -111,8 +110,8 @@ export const Jumbotron = () => (
           className="d-block w-100"
           src={scds2018}
           alt="First slide"
-          width="200px"
-          height="400px"
+          width="100%"
+          height="100%"
         />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
