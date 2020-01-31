@@ -35,15 +35,15 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <NavigationBar />
-          <Jumbotron />
+          {/* <Jumbotron /> */}
           <Layout>
             <Switch>
               <Route exact path="/scds2020" component={Home} />           
+              <Route path="/home" component={Home} />   
               <Route path="/callPapers" component={CallForPapers} />            
               <Route path="/dates" component={Dates} />
               <Route path="/information" component={Information} />
               <Route path="/proceeding" component={Proceeding} />
-
               <Route path="/bestPaper" component={BestPaper} />
               <Route path="/contact" component={Contact} />
               <Route path="/feepayment" component={FeePayment} />

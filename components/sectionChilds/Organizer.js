@@ -2,6 +2,13 @@ import React from 'react';
 
 export const Organizer = () => (
   <div>
+      <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+        <li class="breadcrumb-item"><a >Committee</a></li>
+        <li class="breadcrumb-item active" aria-current="page">International Scientific Committee</li>
+      </ol>
+    </nav>
     <h2>International Scientific Committee</h2> <br/>
     <p>
         <b>•	Prof. Dr Mario Koeppen <br/> </b>

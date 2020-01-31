@@ -13,11 +13,16 @@ import speaker2 from './assets/images/contents/speaker2.png';
 import speaker3 from './assets/images/contents/speaker3.png';
 import speaker4 from './assets/images/contents/speaker4.png';
 
+import sponsor from './assets/images/contents/sponsor-03.jpg';
+
+import { Jumbotron } from './components/Jumbotron';
+
 export const Home = () => (
   <div>
-     <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand>
+     {/* <NavbarBrand href="/" style={{  justifyContent: "center",
+          alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand> */}
 
+    <Jumbotron />   <br/>
     <h2>Introduction</h2>
       <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, SCDS2017 was successfully hosted by Universitas Gadjah Mada, Indonesia. 
           Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute ofTechnology (KYUTECH), Iizuka, Japan successfully hosted SCDS2018 from 28-29 August 2019.</p>
@@ -104,6 +109,9 @@ export const Home = () => (
                         </Col>                                                       
                     </Row>
                 </Container>   
+
+                <br/>       
+                <NavbarBrand href="/"><img src={sponsor} alt="wrapkit" height= "310px" width= "1120px"/></NavbarBrand>
                     
   </div>
 )

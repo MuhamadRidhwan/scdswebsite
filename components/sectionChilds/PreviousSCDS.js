@@ -8,6 +8,13 @@ import scds2018 from '../../assets/images/contents/scds2018.jpg';
 
 export const PreviousSCDS = () => (
   <div>
+      <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/home">Home</a></li>
+            <li class="breadcrumb-item"><a >About</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Previous SCDS</li>
+            </ol>
+      </nav>
     <h2>Previous SCDS</h2>
     <p></p>
     <NavbarBrand href="/" style={{  justifyContent: "center",

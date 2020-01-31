@@ -2,7 +2,14 @@ import React from 'react'
 
 export const TechnicalCommittee = () => (
   <div>
-    <h2>Organizing Committee</h2> <br/>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+        <li class="breadcrumb-item"><a >Committee</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Technical Committee</li>
+      </ol>
+    </nav>
+    <h2>Technical Committee</h2> <br/>
     <p>
       <b>Patron</b><br/>
       <i>Prof. Emeritus Ir. Dr Mohd Azraai Kassim</i><br/>

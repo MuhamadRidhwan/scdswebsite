@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styled from 'styled-components';
 
+import logo from '../assets/images/contents/UiTM_logo.png';
+
 const Styles = styled.div`
   .navbar {
     background-color: #222;
   }
 
-  a, .navbar-brand, .navbar-nav .nav-link .nav-dropdown {
-    color: #bbb;
+  a, .navbar-brand .navbar-nav .nav-link .nav-dropdown {
+    color: white;
 
     &:hover {
       color: white;
@@ -18,39 +20,39 @@ const Styles = styled.div`
   }
 `;
 
-
 export const NavigationBar = () => (
   <Styles>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home"> <Link to="/scds2020">Home</Link></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#callPapers">  <Link to="/callPapers">Call for Papers</Link></Nav.Link>
-      <Nav.Link href="#dates"> <Link to="/dates">Important Dates</Link></Nav.Link>
-      <Nav.Link href="#proceeding"> <Link to="/proceeding">Proceeding</Link></Nav.Link>
-      <NavDropdown title="Information" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#programbook"><Link to="/programBook">Program Book</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#guideline"><Link to="/submissionGuideline">Submission Guideline</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#feepayment"><Link to="/feePayment">Fee and Payment</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#register"><Link to="/registration">Registration</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#publication"><Link to="/publication">Publication</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#venueaccomodation"><Link to="/venue">Venue & Accommodation</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#visa"><Link to="/visa">Visas & Letter of Invitation</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#bestpaper"> <Link to="/bestPaper">Best Paper Awards</Link></NavDropdown.Item>
-      </NavDropdown>
-      <NavDropdown title="Committee" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#technicalcommittee"> <Link to="/committee">Committee</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#maincommittee"><Link to="/organizer">Main Organizing Committee</Link></NavDropdown.Item>  
-      </NavDropdown>
-      <NavDropdown title="About" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#contact"><Link to="/contact">Contact Us</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#maps"><Link to="/maps">Maps & Direction</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#previous"><Link to="/previousscds">Previous SCDS</Link></NavDropdown.Item>
-    
-      </NavDropdown>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
+    <Navbar collapseOnSelect expand="lg" bg="primary" variant="white">
+      <NavbarBrand><img href='/' src={logo} alt="wrapkit" height= "100px" width= "250px" right="30px"/></NavbarBrand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#home"> <Link style={{fontSize: '18px'}} to="/home">Home</Link></Nav.Link>
+          <Nav.Link href="#callPapers"> <Link  style={{fontSize: '18px'}} to="/callPapers">Call for Papers</Link></Nav.Link>
+          <Nav.Link href="#dates"> <Link  style={{fontSize: '18px'}} to="/dates">Important Dates</Link></Nav.Link>
+          <Nav.Link href="#proceeding"> <Link  style={{fontSize: '18px'}} to="/proceeding">Proceeding</Link></Nav.Link>
+          <NavDropdown  style={{fontSize: '18px'}} title="Information" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#programbook"><Link style={{color: 'black'}} to="/programBook">Program Book</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#guideline"><Link style={{color: 'black'}} to="/submissionGuideline">Submission Guideline</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#feepayment"><Link style={{color: 'black'}} to="/feePayment">Fee and Payment</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#register"><Link style={{color: 'black'}} to="/registration">Registration</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#publication"><Link style={{color: 'black'}} to="/publication">Publication</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#venueaccomodation"><Link style={{color: 'black'}} to="/venue">Venue & Accommodation</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#visa"><Link style={{color: 'black'}} to="/visa">Visas & Letter of Invitation</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#bestpaper"> <Link style={{color: 'black'}} to="/bestPaper">Best Paper Awards</Link></NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown  style={{fontSize: '18px'}} title="Committee" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="#technicalcommittee"> <Link style={{color: 'black'}} to="/committee">Technical Committee</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#maincommittee"><Link style={{color: 'black'}} to="/organizer">International Scientific Committee</Link></NavDropdown.Item>  
+          </NavDropdown>
+          <NavDropdown  style={{fontSize: '18px'}} title="About" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="#contact"><Link style={{color: 'black'}} to="/contact">Contact Us</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#maps"><Link style={{color: 'black'}} to="/maps">Maps & Direction</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#previous"><Link style={{color: 'black'}} to="/previousscds">Previous SCDS</Link></NavDropdown.Item>
+        
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   </Styles >
 )

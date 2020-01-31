@@ -5,6 +5,13 @@ import fee from '../../assets/images/contents/fee.png';
 
 export const FeePayment = () => (
   <div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+        <li class="breadcrumb-item"><a >Information</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Fee and Payment</li>
+      </ol>
+    </nav>
     <h2>Fee and Payment</h2>  
     <NavbarBrand href="/" style={{  justifyContent: "center",
           alignItems: "center", display: "flex",}}><img src={fee} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>

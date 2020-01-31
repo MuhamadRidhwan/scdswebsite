@@ -1,10 +1,18 @@
 import React, { Component }  from 'react';
-import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
+import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button, Breadcrumb } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 import img1 from '../../assets/images/contents/ccis.png';
 
 export const Proceeding = () => (
   <div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Proceeding</li>
+      </ol>
+    </nav>
+
     <h2>Proceeding</h2>
     <p style={{ textAlign:'justify'}}>The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus. 
         The SCDS2020 proceeding will also be published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus.
