@@ -26,7 +26,7 @@ export const Home = () => (
     <br/><Jumbotron /> <br/>
     <h2>Introduction</h2>
       <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, SCDS2017 was successfully hosted by Universitas Gadjah Mada, Indonesia. 
-          Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute ofTechnology (KYUTECH), Iizuka, Japan successfully hosted SCDS2018 from 28-29 August 2019.</p>
+          Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute of Technology (KYUTECH), Iizuka, Japan successfully hosted SCDS2018 from 28-29 August 2019.</p>
       <p style={{ textAlign:'justify'}}>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) will be hosted by Institute Teknologi Sepuluh Nopember, Indonesia from 25-26 August 2020. The theme of the conference is ‘Science in Analytics: 
           Harnessing Data and Simplifying Solutions’. SCDS2020 have invited renowned international and local keynote speakers who are academia or practitioners to share their knowledge and experience in the area in the applications of 
           soft computing in various disciplines. This conference aims to provide a platform for researchers and practitioners to share their research work and to create rigorous international research collaborations.</p>
@@ -51,10 +51,10 @@ export const Home = () => (
                                     <p>{'\u2022'} Malaysian Journal of Computing (https://mjoc.uitm.edu.my)[ISSN: 2231-7474] </p>
                                     <p>{'\u2022'} Indonesian Journal of Computing and Cybernetics (https://journal.ugm.ac.id/ijcss) </p>
 
-                                    <NavbarBrand href="/"><img src={book1} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
-                                    <NavbarBrand href="/"><img src={book2} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
-                                    <NavbarBrand href="/"><img src={book3} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
-                                    <NavbarBrand href="/"><img src={book4} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand> <br/> <br/>
+                                    <NavbarBrand><img src={book1} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
+                                    <NavbarBrand><img src={book2} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
+                                    <NavbarBrand><img src={book3} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand>
+                                    <NavbarBrand><img src={book4} alt="wrapkit" height= "310px" width= "200px"/></NavbarBrand> <br/> <br/>
 
                                     <h2>Keynote Speakers</h2>    <br/> 
                                     <Container>                
