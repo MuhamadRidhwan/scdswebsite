@@ -38,7 +38,7 @@ class App extends Component {
           {/* <Jumbotron /> */}
           <Layout>
             <Switch>
-              <Route exact path="/scds2020" component={Home} />           
+              <Route exact path='/scds2020/' component={Home} />           
               <Route path="/scds2020/home" component={Home} />   
               <Route path="/scds2020/callPapers" component={CallForPapers} />            
               <Route path="/scds2020/dates" component={Dates} />
