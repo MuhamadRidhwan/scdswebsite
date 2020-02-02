@@ -3,6 +3,7 @@ import { UncontrolledDropdown, DropdownToggler, DropdownMenu, DropdownItem, Cont
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styled from 'styled-components';
+import $ from 'jquery'; 
 
 import logo from '../assets/images/contents/UiTM_logo.png';
 import UiTM_icon from '../assets/images/contents/UiTM_Icon.png';
@@ -38,12 +39,65 @@ const Styles = styled.div`
     }
   }
 
+  body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4f5d6e;
+    position: relative;
+    background: rgb(26, 49, 95);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(10%, rgba(26, 49, 95, 1)), color-stop(24%, rgba(29, 108, 141, 1)), color-stop(37%, rgba(41, 136, 151, 1)), color-stop(77%, rgba(39, 45, 100, 1)), color-stop(90%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 1)));
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1a315f', endColorstr='#1a315f', GradientType=0);
+  }
+  
+  .body-wrap {
+    min-height: 700px;
+  }
+  
+  .body-wrap {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .body-wrap:before,
+  .body-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 260px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 0)));
+    background: linear-gradient(to bottom, rgba(26, 49, 95, 1) 0%, rgba(26, 49, 95, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1a315f', endColorstr='#001a315f', GradientType=0);
+  }
+  
+  .body-wrap:after {
+    top: auto;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(26, 49, 95, 0) 0%, rgba(26, 49, 95, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#001a315f', endColorstr='#1a315f', GradientType=0);
+  }
+  
+  nav {
+    margin-top: 30px;
+    box-shadow: 5px 4px 5px #000;
+  }
   
 
 `;
 
+
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
 export const NavigationBar = () => (
   <Styles>
+
     <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" >
     <NavbarBrand className="overlay"><img position="relative" left="100px" href='/' src={UiTM_icon} height= "100%" width= "100%"/></NavbarBrand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -76,4 +130,6 @@ export const NavigationBar = () => (
     </Navbar.Collapse>
     </Navbar>
   </Styles >
+
 )
+
