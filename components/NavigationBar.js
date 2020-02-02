@@ -103,28 +103,28 @@ export const NavigationBar = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="lay">
-        <Nav.Link href="#home"> <Link style={{fontSize: '18px'}} to="/home">Home</Link></Nav.Link>
-        <Nav.Link href="#callPapers"> <Link  style={{fontSize: '18px'}} to="/callPapers">Call for Papers</Link></Nav.Link>
-        <Nav.Link href="#dates"> <Link  style={{fontSize: '18px'}} to="/dates">Important Dates</Link></Nav.Link>
-        <Nav.Link href="#proceeding"> <Link  style={{fontSize: '18px'}} to="/proceeding">Proceeding</Link></Nav.Link>
+        <Nav.Link href="#home"> <Link style={{fontSize: '18px'}} to="/scds2020/home">Home</Link></Nav.Link>
+        <Nav.Link href="callPapers"> <Link  style={{fontSize: '18px'}} to="/scds2020/callPapers">Call for Papers</Link></Nav.Link>
+        <Nav.Link href="#dates"> <Link  style={{fontSize: '18px'}} to="/scds2020/dates">Important Dates</Link></Nav.Link>
+        <Nav.Link href="#proceeding"> <Link  style={{fontSize: '18px'}} to="/scds2020/proceeding">Proceeding</Link></Nav.Link>
           <NavDropdown style={{fontSize: '18px'}} title="Information" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#programbook"><Link style={{color: 'black'}} to="/programBook">Program Book</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#guideline"><Link style={{color: 'black'}} to="/submissionGuideline">Submission Guideline</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#feepayment"><Link style={{color: 'black'}} to="/feePayment">Fee and Payment</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#register"><Link style={{color: 'black'}} to="/registration">Registration</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#publication"><Link style={{color: 'black'}} to="/publication">Publication</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#venueaccomodation"><Link style={{color: 'black'}} to="/venue">Venue & Accommodation</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#visa"><Link style={{color: 'black'}} to="/visa">Visas & Letter of Invitation</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#bestpaper"> <Link style={{color: 'black'}} to="/bestPaper">Best Paper Awards</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#programbook"><Link style={{color: 'black'}} to="/scds2020/programBook">Program Book</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#guideline"><Link style={{color: 'black'}} to="/scds2020/submissionGuideline">Submission Guideline</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#feepayment"><Link style={{color: 'black'}} to="/scds2020/feePayment">Fee and Payment</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#register"><Link style={{color: 'black'}} to="/scds2020/registration">Registration</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#publication"><Link style={{color: 'black'}} to="/scds2020/publication">Publication</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#venueaccomodation"><Link style={{color: 'black'}} to="/scds2020/venue">Venue & Accommodation</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#visa"><Link style={{color: 'black'}} to="/scds2020/visa">Visas & Letter of Invitation</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#bestpaper"> <Link style={{color: 'black'}} to="/scds2020/bestPaper">Best Paper Awards</Link></NavDropdown.Item>
           </NavDropdown>
         <NavDropdown style={{fontSize: '18px'}} title="Committee" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#technicalcommittee"> <Link style={{color: 'black'}} to="/committee">Technical Committee</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#maincommittee"><Link style={{color: 'black'}} to="/organizer">International Scientific Committee</Link></NavDropdown.Item>  
+          <NavDropdown.Item href="#technicalcommittee"> <Link style={{color: 'black'}} to="/scds2020/committee">Technical Committee</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#maincommittee"><Link style={{color: 'black'}} to="/scds2020/organizer">International Scientific Committee</Link></NavDropdown.Item>  
         </NavDropdown>
         <NavDropdown  style={{fontSize: '18px'}} title="About" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#contact"><Link style={{color: 'black'}} to="/contact">Contact Us</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#maps"><Link style={{color: 'black'}} to="/maps">Maps & Direction</Link></NavDropdown.Item>
-        <NavDropdown.Item href="#previous"><Link style={{color: 'black'}} to="/previousscds">Previous SCDS</Link></NavDropdown.Item>  
+          <NavDropdown.Item href="#contact"><Link style={{color: 'black'}} to="/scds2020/contact">Contact Us</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#maps"><Link style={{color: 'black'}} to="/scds2020/maps">Maps & Direction</Link></NavDropdown.Item>
+        <NavDropdown.Item href="#previous"><Link style={{color: 'black'}} to="/scds2020/previousscds">Previous SCDS</Link></NavDropdown.Item>  
        </NavDropdown>
      </Nav>  
     </Navbar.Collapse>

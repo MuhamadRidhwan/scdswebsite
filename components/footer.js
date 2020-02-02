@@ -33,8 +33,8 @@ const Styles = styled.div`
 function Footer() {
   return (
     <div>
-       <Container style={{backgroundColor:'black', textAlign:'center', width:'stretch'}}>
-        <p style={{ textAlign:'center', color: 'white'}}>© 2020 • The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020)</p>
+       <Container style={{backgroundColor:'black', width:'stretch', height:'40px', justifyContent: 'center', alignContent: 'initial', margin: 'auto', textAlign: 'center', paddingTop: '8px'}}>
+        <p style={{ textAlign:'center', color: 'white', justifyContent: 'center', alignItems: 'center'}}>© 2020 • The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020)</p>
       </Container>
    
     </div>

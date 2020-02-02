@@ -17,7 +17,7 @@ import { BestPaper } from './components/sectionChilds/BestPaper';
 import { Contact } from './components/sectionChilds/Contact';
 import { FeePayment } from './components/sectionChilds/FeePayment';
 import { Maps } from './components/sectionChilds/Maps';
-import { Organizer } from './components/sectionChilds/Organizer';
+import { Organizer } from './components/sectionChilds/InternationalCommittee';
 import { PreviousSCDS } from './components/sectionChilds/PreviousSCDS';
 import { ProgramBook } from './components/sectionChilds/ProgramBook';
 import { Publication } from './components/sectionChilds/Publication';
@@ -28,38 +28,35 @@ import { Venue } from './components/sectionChilds/Venue';
 import { Visa } from './components/sectionChilds/Visa';
 
 import Footer from "./components/footer";
-import UpperSection from "./components/upperSection";
-
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Router>
-        {/* <UpperSection/> */}
           <NavigationBar />
           {/* <Jumbotron /> */}
           <Layout>
             <Switch>
               <Route exact path="/scds2020" component={Home} />           
-              <Route path="/home" component={Home} />   
-              <Route path="/callPapers" component={CallForPapers} />            
-              <Route path="/dates" component={Dates} />
-              <Route path="/information" component={Information} />
-              <Route path="/proceeding" component={Proceeding} />
-              <Route path="/bestPaper" component={BestPaper} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/feepayment" component={FeePayment} />
-              <Route path="/maps" component={Maps} />
-              <Route path="/organizer" component={Organizer} /> 
-              <Route path="/previousscds" component={PreviousSCDS} />
-              <Route path="/programBook" component={ProgramBook} />
-              <Route path="/publication" component={Publication} />
-              <Route path="/registration" component={Registration} />
-              <Route path="/submissionGuideline" component={SubmissionGuideline} />
-              <Route path="/committee" component={TechnicalCommittee} /> 
-              <Route path="/venue" component={Venue} />
-              <Route path="/visa" component={Visa} />
+              <Route path="/scds2020/home" component={Home} />   
+              <Route path="/scds2020/callPapers" component={CallForPapers} />            
+              <Route path="/scds2020/dates" component={Dates} />
+              <Route path="/scds2020/information" component={Information} />
+              <Route path="/scds2020/proceeding" component={Proceeding} />
+              <Route path="/scds2020/bestPaper" component={BestPaper} />
+              <Route path="/scds2020/contact" component={Contact} />
+              <Route path="/scds2020/feePayment" component={FeePayment} />
+              <Route path="/scds2020/maps" component={Maps} />
+              <Route path="/scds2020/organizer" component={Organizer} /> 
+              <Route path="/scds2020/previousscds" component={PreviousSCDS} />
+              <Route path="/scds2020/programBook" component={ProgramBook} />
+              <Route path="/scds2020/publication" component={Publication} />
+              <Route path="/scds2020/registration" component={Registration} />
+              <Route path="/scds2020/submissionGuideline" component={SubmissionGuideline} />
+              <Route path="/scds2020/committee" component={TechnicalCommittee} /> 
+              <Route path="/scds2020/venue" component={Venue} />
+              <Route path="/scds2020/visa" component={Visa} />
 
               <Route component={NoMatch} />
             </Switch>
