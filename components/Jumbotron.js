@@ -1,24 +1,17 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container, Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
-import { NavLink } from "react-router-dom";
-
-import logo from '../assets/images/contents/slide-show-acds2020-bg-02.jpg';
-import img1 from '../assets/images/contents/ccis.png';
-import book1 from '../assets/images/contents/book1.jpg';
-import book2 from '../assets/images/contents/book2.png';
-import book3 from '../assets/images/contents/surabaya-bg.jpg';
-import book4 from '../assets/images/contents/slide-show-acds2020_bridge-01.jpg';
 
 import scds2015 from '../assets/images/contents/scds2015.jpg';
 import scds2016 from '../assets/images/contents/scds2016.gif';
 import scds2017 from '../assets/images/contents/scds2017.jpg';
 import scds2018 from '../assets/images/contents/scds2018.jpg';
+import scds2019 from '../assets/images/contents/scds2019.jpg';
 import scds2020 from '../assets/images/contents/scds2020.jpg';
 
 const Styles = styled.div`
   .jumbo {
-    background: url(${logo}) no-repeat fixed bottom;
+    background: url(${scds2020}) no-repeat fixed bottom;
     background-size: cover;
     color: #ffffff;
     height: 300px;
@@ -109,6 +102,20 @@ export const Jumbotron = () => (
         <img
           className="d-block w-100"
           src={scds2018}
+          alt="First slide"
+          width="100%"
+          height="100%"
+        />
+        <Carousel.Caption>
+          {/* <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={scds2019}
           alt="First slide"
           width="100%"
           height="100%"

@@ -25,14 +25,21 @@ export const Home = () => (
 
     <br/><Jumbotron /> <br/>
     <h2>Introduction</h2>
-      <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, SCDS2017 was successfully hosted by Universitas Gadjah Mada, Indonesia. 
-          Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute of Technology (KYUTECH), Iizuka, Japan successfully hosted SCDS2018 from 28-29 August 2019.</p>
-      <p style={{ textAlign:'justify'}}>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) will be hosted by Institute Teknologi Sepuluh Nopember, Indonesia from 25-26 August 2020. The theme of the conference is ‘Science in Analytics: 
-          Harnessing Data and Simplifying Solutions’. SCDS2020 have invited renowned international and local keynote speakers who are academia or practitioners to share their knowledge and experience in the area in the applications of 
-          soft computing in various disciplines. This conference aims to provide a platform for researchers and practitioners to share their research work and to create rigorous international research collaborations.</p>
-      <p style={{ textAlign:'justify'}}>SCDS2020 targets participants from universities, government agencies and industries with the ultimate aim of bridging the gap between academia and the industry. Research collaborations between the academia and industry 
-          can lead to the advancement of useful analytics and computing applications for providing real time insights and solutions.</p>
-    <p style={{ textAlign:'justify'}}>All accepted and registered papers of SCDS2020 will be published in the renowned series of "Communications in Computer and Information Science series" by Springer Verlag.</p>
+      <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, 
+            SCDS2017 was successfully hosted by Universitas Gadjah Mada, Indonesia. 
+            Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute of Technology (KYUTECH), Iizuka, Japan successfully 
+            hosted SCDS2019 from 28-29 August 2019.</p>
+      <p style={{ textAlign:'justify'}}>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) will be hosted by Institute Teknologi Sepuluh 
+            Nopember, Indonesia from 25-26 August 2020. The theme of the conference is ‘Science in Analytics: 
+            Harnessing Data and Simplifying Solutions’. SCDS2020 have invited renowned international and local keynote speakers who are academia or practitioners to share 
+            their knowledge and experience in the area in the applications of 
+            soft computing in various disciplines. This conference aims to provide a platform for researchers and practitioners to share their research work and to create 
+            rigorous international research collaborations.</p>
+      <p style={{ textAlign:'justify'}}>SCDS2020 targets participants from universities, government agencies and industries with the ultimate aim of bridging the gap between 
+            academia and the industry. Research collaborations between the academia and industry 
+            can lead to the advancement of useful analytics and computing applications for providing real time insights and solutions.</p>
+    <p style={{ textAlign:'justify'}}>All accepted and registered papers of SCDS2020 will be published in the renowned series of "Communications in Computer and Information 
+            Science series" by Springer Verlag.</p>
 
     <Container>
       <Row>
@@ -71,7 +78,7 @@ export const Home = () => (
                             </p><br/>
                             <Col md="13">
                             <Card body className="card-shadow">
-                                <Button>Abstract</Button>
+                                <Button href="http://ghuang.stat.nctu.edu.tw/" target="_blank">Abstract</Button>
                             </Card>
                         </Col>     
                         </Col>  
@@ -83,7 +90,7 @@ export const Home = () => (
                                 Software and data evolution, Cloud Computing, Big Data, Bio-inspired Algorithms, IOT
                             </p>
                             <Card body className="card-shadow">
-                                <Button>Abstract</Button>
+                                <Button href="https://www.dut.ac.za/space_science/prof_millham/" target="_blank">Abstract</Button>
                             </Card>
                         </Col>        
                         <Col lg="3" className="m-b-30">                       
@@ -94,7 +101,7 @@ export const Home = () => (
                                 E-Commerce, Data Mining, Business Intelligence, Intelligent Agent Technology, Electronic Governance, Optimization Algorithms
                             </p>
                             <Card body className="card-shadow">
-                                <Button>Abstract</Button>
+                                <Button href="https://www.simonjamesfong.com/" target="_blank">Abstract</Button>
                             </Card>
                         </Col>        
                         <Col lg="3" className="m-b-30">                       
@@ -105,7 +112,7 @@ export const Home = () => (
                                 Computational Statistics, Econometrics, Extreme Weather and Climate 
                             </p>
                             <Card body className="card-shadow">
-                                <Button>Abstract</Button>
+                                <Button href="https://geoengineering.environment.harvard.edu/people/heri-kuswanto" target="_blank">Abstract</Button>
                             </Card>
                         </Col>                                                       
                     </Row>
