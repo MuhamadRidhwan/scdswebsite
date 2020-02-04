@@ -107,7 +107,7 @@ export const TechnicalCommittee = () => (
       Universiti Teknologi MARA <br/> <br/>
 
       <b> Logistics Committee </b> <br/>
-      <i> Hamdan Abdul Maad	Universiti Teknologi MARA </i> <br/>
+      <i> Hamdan Abdul Maad </i> <br/>
       Universiti Teknologi MARA <br/>
 
     </p>
