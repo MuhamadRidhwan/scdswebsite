@@ -14,8 +14,8 @@ export const Proceeding = () => (
     </nav>
 
     <h2>Proceeding</h2>
-    <p style={{ textAlign:'justify'}}>The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus. 
-        The SCDS2020 proceeding will also be published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus.
+    <p style={{ textAlign:'justify'}}>The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and Information 
+        Science series which is abstracted (indexed) by DBLP, EI, and Scopus.      
     </p>
     <p style={{ textAlign:'justify'}}>
       The SCDS2020 proceeding will also be published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus.
