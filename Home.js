@@ -76,7 +76,7 @@ export const Home = () => (
                             <Card.Body>
                             <Card.Title>Professor Dr. Guan-Hua, Huang <br/></Card.Title>
                             <Card.Text>
-                                Institute of Statistics National Chiao Tung University, Taiwan. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
+                                Institute of Statistics, <br/> National Chiao Tung University, Taiwan. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
                                 Aging, Nursing, Schizophrenia, Diabetes, Sensory Impairments (hearing, vision, olfaction), Data Science <br/> <br/>
                                  {/* <Card body className="card-shadow" style={{justifyContent:'space-around', justifyItems:'space-around', display:'flex'}}> */}
                                     <Button style={{justifyContent:'space-around'}} href="http://ghuang.stat.nctu.edu.tw/" target="_blank">Abstract</Button>
@@ -85,11 +85,25 @@ export const Home = () => (
                             </Card.Body>
                         </Card> 
                         <Card style={{ width: '15rem' }}>
+                            <Card.Img variant="top" src={speaker4} width="100px" height="220px"/>
+                            <Card.Body>
+                            <Card.Title>Associate Professor Dr.rer.pol. Heri Kuswanto <br/></Card.Title>
+                            <Card.Text>
+                                Faculty of Science and Data Analytics, <br/> Institute Teknologi Sepuluh Nopember, Indonesia. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
+                                Computational Statistics, Econometrics, Extreme Weather and Climate  <br/> <br/>
+                                {/* <Card body className="card-shadow" style={{justifyContent:'center', justifyItems:'center'}}> */}
+                                    <Button style={{justifyContent:'center'}} href="https://geoengineering.environment.harvard.edu/people/heri-kuswanto" 
+                                        target="_blank">Abstract</Button>
+                                {/* </Card> */}
+                            </Card.Text>
+                            </Card.Body>
+                        </Card>           
+                        <Card style={{ width: '15rem' }}>
                             <Card.Img variant="top" src={speaker2} width="100px" height="220px"/>
                             <Card.Body>
                             <Card.Title>Professor Dr. Richard Millham <br/></Card.Title>
                             <Card.Text>
-                                Faculty of Accounting and Informatics Durban University of Technology. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
+                                Faculty of Accounting and Informatics, <br/> Durban University of Technology. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
                                 Software and data evolution, Cloud Computing, Big Data, Bio-inspired Algorithms, IOT <br/> <br/>
                                 {/* <Card body className="card-shadow" style={{justifyContent:'center', justifyItems:'center'}}> */}
                                     <Button style={{justifyContent:'center'}} href="https://www.dut.ac.za/space_science/prof_millham/" target="_blank">Abstract</Button>
@@ -102,28 +116,14 @@ export const Home = () => (
                             <Card.Body>
                             <Card.Title>Associate Professor Dr Simon Fong <br/></Card.Title>
                             <Card.Text>
-                                Information Science Department University of Macau, China. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
+                                Information Science Department, <br/> University of Macau, China. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
                                 E-Commerce, Data Mining, Business Intelligence, Intelligent Agent Technology, Electronic Governance, Optimization Algorithms <br/> <br/>
                                 {/* <Card body className="card-shadow" style={{justifyContent:'center', justifyItems:'center'}}> */}
                                     <Button style={{justifyContent:'center'}} href="https://www.simonjamesfong.com/" target="_blank">Abstract</Button>
                                 {/* </Card> */}
                             </Card.Text>
                             </Card.Body>
-                        </Card> 
-                        <Card style={{ width: '15rem' }}>
-                            <Card.Img variant="top" src={speaker4} width="100px" height="220px"/>
-                            <Card.Body>
-                            <Card.Title>Associate Professor Dr.rer.pol. Heri Kuswanto <br/></Card.Title>
-                            <Card.Text>
-                                Faculty of Science and Data Analytics Institute Teknologi Sepuluh Nopember, Indonesia. <br/><br/> <u><b>Research Areas</b></u><br/><br/>     
-                                Computational Statistics, Econometrics, Extreme Weather and Climate  <br/> <br/>
-                                {/* <Card body className="card-shadow" style={{justifyContent:'center', justifyItems:'center'}}> */}
-                                    <Button style={{justifyContent:'center'}} href="https://geoengineering.environment.harvard.edu/people/heri-kuswanto" 
-                                        target="_blank">Abstract</Button>
-                                {/* </Card> */}
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>                                                           
+                        </Card>                                                                  
                     </Row>
                 </Container>   
 
