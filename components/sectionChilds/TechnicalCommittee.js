@@ -43,8 +43,6 @@ export const TechnicalCommittee = () => (
       Universiti Teknologi MARA <br/>
       <i> Achmad Choiruddin </i> <br/>
       Institut Teknologi Sepuluh Nopember <br/>
-      <i> Aida Wati Zainan Abidin </i> <br/>
-      Universiti Teknologi MARA <br/><br/>
     
       <b>Secretariat </b> <br/>
       <i> Santi Puteri Rahayu </i> <br/>
@@ -68,8 +66,6 @@ export const TechnicalCommittee = () => (
       
       <b> Technical Program Committee </b> <br/>
       <i> Jasni Mohamad Zain </i> <br/>
-      Universiti Teknologi MARA <br/>
-      <i> Azlin Ahmad </i> <br/>
       Universiti Teknologi MARA <br/>
       <i> Santi Wulan Purnami </i> <br/>
       Institut Teknologi Sepuluh Nopember <br/>

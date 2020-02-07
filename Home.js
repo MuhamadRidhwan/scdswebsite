@@ -31,7 +31,7 @@ export const Home = () => (
             Chulalongkorn University successfully hosted SCDS2018 from 15-16 August 2018. In 2019, Kyushu Institute of Technology (KYUTECH), Iizuka, Japan successfully 
             hosted SCDS2019 from 28-29 August 2019.</p>
       <p style={{ textAlign:'justify'}}>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) will be hosted by Institute Teknologi Sepuluh 
-            Nopember, Indonesia from 25-26 August 2020. The theme of the conference is ‘Science in Analytics: 
+            Nopember, Indonesia from 25-26 August 2020. The theme of the conference is ‘AI and Analytics: 
             Harnessing Data and Simplifying Solutions’. SCDS2020 have invited renowned international and local keynote speakers who are academia or practitioners to share 
             their knowledge and experience in the area in the applications of 
             soft computing in various disciplines. This conference aims to provide a platform for researchers and practitioners to share their research work and to create 
@@ -51,11 +51,13 @@ export const Home = () => (
       </Row>
      </Container> 
 
-     <p style={{ textAlign:'justify'}}>The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP
+     <p style={{ textAlign:'justify'}}>The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and 
+                                    Information Science series which is abstracted (indexed) by DBLP
                                     , EI, Scopus and were submitted for the inclusion in ISI Proceedings. Authors of accepted papers will be invited to submit extended paper to: </p>
 
                                     <p>{'\u2022'} Fast Track Submission of Selected Papers to Applied Soft Computing, Elsevier. (IF=3.541) </p>
-                                    <p>{'\u2022'} Pertanika Journal of Science and Technology (with additional publication charge of RM750). <br/> &nbsp; http://pertanika.upm.edu.my/JST.php </p>
+                                    <p>{'\u2022'} Pertanika Journal of Science and Technology (with additional publication charge of RM750). <br/> &nbsp; 
+                                    http://pertanika.upm.edu.my/JST.php </p>
                                     <p>{'\u2022'} Malaysian Journal of Computing (https://mjoc.uitm.edu.my)[ISSN: 2231-7474] </p>
                                     <p>{'\u2022'} Indonesian Journal of Computing and Cybernetics (https://journal.ugm.ac.id/ijcss) </p>
 
