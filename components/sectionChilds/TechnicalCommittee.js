@@ -42,7 +42,7 @@ export const TechnicalCommittee = () => (
       <i> Siti Shaliza Mohd Khairi </i> <br/>
       Universiti Teknologi MARA <br/>
       <i> Achmad Choiruddin </i> <br/>
-      Institut Teknologi Sepuluh Nopember <br/>
+      Institut Teknologi Sepuluh Nopember <br/> <br/>
     
       <b>Secretariat </b> <br/>
       <i> Santi Puteri Rahayu </i> <br/>
