@@ -11,8 +11,13 @@ export const Organizer = () => (
     </nav>
     <h2>International Scientific Committee</h2> <br/>
     <p>
-        <b>•	Prof. Dr Mario Koeppen <br/> </b>
-        Kyushu Institute of Technology, Japan <br/>
+      <b>•	Prof. Dr Mario Koeppen <br/> </b>
+      Kyushu Institute of Technology, Japan <br/>
+    </p>
+
+    <p> 
+      <b>•	Prof. Dr. Layth Sliman  <br/> </b>
+      EFREI, Paris, France  <br/>
     </p>
 
     <p> 

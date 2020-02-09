@@ -13,7 +13,7 @@ export const CallForPapers = () => (
     <p style={{ textAlign:'justify'}}>The 6th International Conference on Soft Computing in Data Science (SCDS) 2020 that will be held from 25 - 26 August 2020 (Venue: To be 
         Announced). With the advancement in computer technology, 
         data science plays an important role in various disciplines including bio-informatics, medical and health informatics, social sciences, manufacturing, economics, 
-        business and finance. SCDS2019 aims to provide 
+        business and finance. SCDS2020 aims to provide 
         a platform for discussions on leading edge methods and also addressing challenges, problems and issues in soft computing in data science and analytics. The role of 
         soft computing in data science is significantly 
         increasing in every field from engineering to life sciences and with advanced computer technology, solutions for complex real problems can be simplified. For the 

@@ -59,6 +59,8 @@ export const TechnicalCommittee = () => (
       Universiti Teknologi MARA <br/>
       <i> Kartika Fithriasari </i> <br/>
       Institut Teknologi Sepuluh Nopember <br/>
+      <i> Vita Vitnasari </i> <br/>
+      Institut Teknologi Sepuluh Nopember <br/>
       <i> Nurbaizura Borhan </i> <br/>
       Universiti  Teknologi MARA <br/>
       <i> Azira Mohamed Amin </i> <br/>
