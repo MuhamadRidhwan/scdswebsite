@@ -71,18 +71,22 @@ export const TechnicalCommittee = () => (
       Universiti Teknologi MARA <br/>
       <i> Santi Wulan Purnami </i> <br/>
       Institut Teknologi Sepuluh Nopember <br/>
+      <i> Marina Yusoff </i> <br/>
+      Universiti Teknologi MARA <br/>
       <i> Shuzlina Abdul Rahman </i> <br/>
       Universiti Teknologi MARA <br/>
       <i> Sofianita Mutalib	</i> <br/>  
       Universiti Teknologi MARA <br/> <br/>
 
       <b> Sponsorship and Corporate Committee </b> <br/>
-      <i> Nuru’l-‘Izzah Othman </i> <br/>   
+      <i> Aida Wati Zainan Abidin </i> <br/>   
       Universiti Teknologi MARA <br/>                                   
-      <i> Siti Haslinda Mohd Din </i> <br/>
-      Jabatan Perangkaan Malaysia <br/>
       <i>Norhidayah A. Kadir </i> <br/>
-      Universiti Teknologi MARA <br/> <br/>
+      Universiti Teknologi MARA <br/>
+      <i>Siti Khuzaimah Soid </i> <br/>
+      Universiti Teknologi MARA <br/>
+      <i> Siti Haslinda Mohd Din </i> <br/>
+      Jabatan Perangkaan Malaysia <br/> <br/>
 
       <b> Publication Committee (Program Book) </b> <br/>
       <i> Nur Atiqah Sia Abdullah </i> <br/>
@@ -102,7 +106,11 @@ export const TechnicalCommittee = () => (
       <i>Mohd Fikri Hadrawi </i> <br/>
       Universiti Teknologi MARA <br/>
       <i>Muhammad Asmu’i Abdul Rahim </i> <br/>  
-      Universiti Teknologi MARA <br/> <br/>
+      Universiti Teknologi MARA <br/>
+      <i>Rayner Alfred </i> <br/>
+      Universiti Malaysia Sabah <br/>
+      <i>Angela Lee Siew Hoong </i> <br/>
+      Sunway University, Malaysia <br/> <br/>
 
       <b> Logistics Committee </b> <br/>
       <i> Hamdan Abdul Maad </i> <br/>
