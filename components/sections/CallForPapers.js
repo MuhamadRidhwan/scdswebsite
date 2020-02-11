@@ -2,6 +2,8 @@ import React from 'react';
 
 export const CallForPapers = () => (
   <div>
+     <title>Call for Papers
+    </title>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>
