@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import Helmet from "react-helmet";
 
 import uitm from '../../assets/images/contents/UiTM_main.jpg';
 
 export const Contact = () => (
   <div>
+    <Helmet>
+      <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Contact</title>
+    </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

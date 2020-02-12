@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
+import Helmet from "react-helmet";
 
 import scds2015 from '../../assets/images/contents/scds2015.jpg';
 import scds2016 from '../../assets/images/contents/scds2016.gif';
@@ -9,6 +10,9 @@ import scds2019 from '../../assets/images/contents/scds2019.jpg';
 
 export const PreviousSCDS = () => (
   <div>
+   <Helmet>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Previous SCDS</title>
+   </Helmet>
       <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

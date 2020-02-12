@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
+import Helmet from "react-helmet";
 
 import fee from '../../assets/images/contents/fee.png';
 
 export const FeePayment = () => (
   <div>
+    <Helmet>
+      <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Fee and Payment</title>
+    </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

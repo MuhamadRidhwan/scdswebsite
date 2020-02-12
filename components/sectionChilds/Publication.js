@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
+import Helmet from "react-helmet";
 
 import img1 from '../../assets/images/contents/ccis.png';
-import book1 from '../../assets/images/contents/book1.jpg';
-import book2 from '../../assets/images/contents/book2.png';
-import book3 from '../../assets/images/contents/book3.jpg';
-import book4 from '../../assets/images/contents/book4.png';
 
 export const Publication = () => (
   <div>
+  <Helmet>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Publication</title>
+  </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

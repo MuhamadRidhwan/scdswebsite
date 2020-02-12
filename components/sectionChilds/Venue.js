@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Helmet from "react-helmet";
 
 export const Venue = () => (
   <div>
+  <Helmet>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Venue</title>
+  </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

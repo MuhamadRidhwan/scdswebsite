@@ -25,7 +25,7 @@ export const Home = () => (
     </Helmet>
      {/* <NavbarBrand href="/" style={{  justifyContent: "center",
           alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand> */}
-    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020)</title>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Home</title>
     <br/><Jumbotron /> <br/>
     <h2>Introduction</h2>
       <p style={{ textAlign:'justify'}}>The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia. Subsequently, 

@@ -1,11 +1,15 @@
 import React, { Component }  from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button, Breadcrumb } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import Helmet from "react-helmet";
 
 import img1 from '../../assets/images/contents/ccis.png';
 
 export const Proceeding = () => (
   <div>
+  <Helmet>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Proceeding</title>
+  </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

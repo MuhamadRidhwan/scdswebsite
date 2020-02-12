@@ -1,7 +1,11 @@
 import React from 'react';
+import Helmet from "react-helmet";
 
 export const CallForPapers = () => (
   <div>
+  <Helmet>
+  <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Call For Papers</title>
+  </Helmet>
      <title>Call for Papers
     </title>
     <nav aria-label="breadcrumb">

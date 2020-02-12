@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Helmet from "react-helmet";
 
 import img1 from '../../assets/images/contents/ccis.png';
 import copyright from '../../assets/images/contents/Copyright-CtP_CCIS.pdf';
@@ -7,6 +8,9 @@ import template from '../../assets/images/contents/SCDS2019-Template.docx';
 
 export const SubmissionGuideline = () => (
   <div>
+  <Helmet>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Submission Guideline</title>
+  </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>
