@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Button } from 'reactstrap';
 import { Card } from 'react-bootstrap';
+import Helmet from "react-helmet";
 
 import img1 from './assets/images/contents/ccis.png';
 import book1 from './assets/images/contents/book1.jpg';
@@ -17,10 +18,11 @@ import sponsor from './assets/images/contents/sponsor.jpg';
 
 import { Jumbotron } from './components/Jumbotron';
 
-
-
 export const Home = () => (
   <div>
+    <Helmet>
+      <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Home</title>
+    </Helmet>
      {/* <NavbarBrand href="/" style={{  justifyContent: "center",
           alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand> */}
     <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020)</title>
