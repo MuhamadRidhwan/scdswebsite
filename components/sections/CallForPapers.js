@@ -4,10 +4,10 @@ import Helmet from "react-helmet";
 export const CallForPapers = () => (
   <div>
   <Helmet>
-  <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Call For Papers</title>
-  </Helmet>
-     <title>Call for Papers
-    </title>
+    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Call For Papers</title>
+    <meta name="description" content="he 6th International Conference on Soft Computing in Data Science (SCDS) 2020 that will be held from 25 - 26 August 2020" />
+    <meta name="keywords" content="call for papers, scds2020, scds 2020" />
+  </Helmet>   
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/scds2020/home">Home</a></li>

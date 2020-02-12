@@ -8,6 +8,11 @@ export const FeePayment = () => (
   <div>
     <Helmet>
       <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Fee and Payment</title>
+      <meta name="description" content="Fee and Payment Fees are inclusive of the following:
+                                        1. Conference registration
+                                        2. Conference pack (CD proceeding, conference bag, name tag)
+                                        3. Conference lunch and tea break" />
+      <meta name="keywords" content="scds2020,aaec,scds 2020" />
     </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
