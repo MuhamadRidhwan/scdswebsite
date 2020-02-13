@@ -9,6 +9,8 @@ export const Proceeding = () => (
   <div>
   <Helmet>
     <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Proceeding</title>
+    <meta name="description" content="The SCDS2015, SCDS2016, SCDS2017, SCDS2018 and SCDS2019 proceedings were published in the Communications in Computer and Information Science series which is abstracted (indexed) by DBLP, EI, and Scopus." />
+    <meta name="keywords" content="proceeding, scds2020, scds 2020, uitm, aaec, shah alam, conference" />
   </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">

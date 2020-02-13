@@ -5,8 +5,8 @@ export const CallForPapers = () => (
   <div>
   <Helmet>
     <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Call For Papers</title>
-    <meta name="description" content="he 6th International Conference on Soft Computing in Data Science (SCDS) 2020 that will be held from 25 - 26 August 2020" />
-    <meta name="keywords" content="call for papers, scds2020, scds 2020" />
+    <meta name="description" content="The 6th International Conference on Soft Computing in Data Science (SCDS) 2020 that will be held from 25 - 26 August 2020" />
+    <meta name="keywords" content="call for papers, scds2020, scds 2020, uitm, aaec, shah alam, conference" />
   </Helmet>   
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">

@@ -6,7 +6,7 @@ export const Dates = () => (
   <Helmet>
     <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Dates</title>
     <meta name="description" content="Important Dates" />
-    <meta name="keywords" content="dates, scds2020, scds 2020" />
+    <meta name="keywords" content="dates, scds2020, scds 2020, uitm, aaec, shah alam, conference" />
   </Helmet>
      <nav aria-label="breadcrumb">
       <ol class="breadcrumb">

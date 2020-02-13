@@ -22,6 +22,8 @@ export const Home = () => (
   <div>
     <Helmet>
       <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Home</title>
+      <meta name="description" content="The First and Second International Conference (SCDS2015, SCDS2016) were successfully held in Kuala Lumpur Malaysia." />
+      <meta name="keywords" content="home, scds2020, scds 2020, uitm, aaec, shah alam, conference" />
     </Helmet>
      {/* <NavbarBrand href="/" style={{  justifyContent: "center",
           alignItems: "center", display: "flex",}}><img src={scds2020} alt="wrapkit" height= "1400px" width= "1000px"/></NavbarBrand> */}
