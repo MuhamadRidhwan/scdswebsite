@@ -14,6 +14,8 @@ import speaker2 from './assets/images/contents/speaker2.jpg';
 import speaker3 from './assets/images/contents/speaker3.jpg';
 import speaker4 from './assets/images/contents/speaker4.jpg';
 
+import poster from './assets/images/contents/Poster SCDS2020.jpg';
+
 import sponsor from './assets/images/contents/sponsor.jpg';
 
 import { Jumbotron } from './components/Jumbotron';
@@ -131,7 +133,11 @@ export const Home = () => (
                             </Card.Body>
                         </Card>                                                                  
                     </Row>
-                </Container>   
+                </Container>  
+
+                <br/>    
+                <a href={poster} target="_blank">Poster SCDS 2020</a> 
+                <br/>    
 
                 <br/>       
                 {/* <NavbarBrand href="/"><img flex="1" alignSelf="stretch" src={sponsor} alt="wrapkit" height= "undefined," width= "undefined,"/></NavbarBrand>

@@ -15,7 +15,7 @@ export const Organizer = () => (
     </nav>
     <h2>International Scientific Committee</h2> <br/>
     <p>
-      <b>•	Prof. Dr Mario Koeppen <br/> </b>
+      <b>•	Prof. Dr Mario Koppen <br/> </b>
       Kyushu Institute of Technology, Japan <br/>
     </p>
 
