@@ -7,7 +7,7 @@ import scds2016 from '../assets/images/contents/scds2016.gif';
 import scds2017 from '../assets/images/contents/scds2017.jpg';
 import scds2018 from '../assets/images/contents/scds2018.jpg';
 import scds2019 from '../assets/images/contents/scds2019.jpg';
-import scds2020 from '../assets/images/contents/scds2020.jpg';
+import scds2020 from '../assets/images/contents/SCDS2020.jpg';
 
 import info1 from '../assets/images/contents/info-1.jpg';
 import info2 from '../assets/images/contents/info-2.jpg';

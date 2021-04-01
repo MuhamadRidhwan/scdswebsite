@@ -2,7 +2,7 @@
   "name": "react-bootstrap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aaec.uitm.edu.my/scds2020",
+  "homepage": "https://muhamadridhwan.github.io/scdswebsite/",
   "dependencies": {
     "@material-ui/core": "^4.9.0",
     "@opuscapita/react-responsive-navbar": "^3.4.0",
