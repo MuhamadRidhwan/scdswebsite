@@ -1,19 +1,33 @@
 import React from 'react';
 import { Container, NavbarBrand, Navbar, Nav, NavItem, NavbarToggler, Collapse, Row, Col, Card, Button } from 'reactstrap';
+import Helmet from "react-helmet";
 
 import fee from '../../assets/images/contents/fee.png';
 
 export const FeePayment = () => (
   <div>
+    <Helmet>
+      <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Fee and Payment</title>
+      <meta name="description" content="Fee and Payment Fees are inclusive of the following:
+                                        1. Conference registration
+                                        2. Publication of works in proceedings SCDS2021" />
+      <meta name="keywords" content="scds2021,aaec,scds 2021, virtual conference" />
+    </Helmet>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/scds2021/home">Home</a></li>
+        <li class="breadcrumb-item"><a >Information</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Fee and Payment</li>
+      </ol>
+    </nav>
     <h2>Fee and Payment</h2>  
-    <NavbarBrand href="/" style={{  justifyContent: "center",
-          alignItems: "center", display: "flex",}}><img src={fee} alt="wrapkit" height= "500px" width= "1000px"/></NavbarBrand>
+    <NavbarBrand style={{  justifyContent: "center",
+          alignItems: "center", display: "flex",}}><img src={fee} alt="wrapkit" height= "260px" width= "500px"/></NavbarBrand>
 
     <p>
       Fees are inclusive of the following: <br/>
       1.	Conference registration <br/>
-      2.	Conference pack (CD proceeding, conference bag, name tag) <br/>
-      3.	Conference lunch and tea break <br/>
+      2.	Publication of works in proceedings SCDS2021 <br/>
     </p>
 
     <p>

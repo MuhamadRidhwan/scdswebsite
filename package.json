@@ -2,18 +2,22 @@
   "name": "react-bootstrap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muhamadridhwan.github.io/scdswebsite/",
+  "homepage": "https://aaec.uitm.edu.my/scds2020",
   "dependencies": {
+    "@material-ui/core": "^4.9.0",
     "@opuscapita/react-responsive-navbar": "^3.4.0",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
+    "jquery": "^3.4.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
     "react-native": "^0.61.5",
     "react-native-elements": "^1.2.7",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "react-snap": "^1.23.0",
     "reactstrap": "^8.4.0",
     "styled-components": "^4.2.0"
   },
@@ -21,9 +25,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d src",
+    "predeploy": "npm run build",
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"
