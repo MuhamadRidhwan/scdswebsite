@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-dropdown{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+.font {
+  color: white;
+}

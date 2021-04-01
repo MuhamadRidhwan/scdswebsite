@@ -1,9 +1,6 @@
 import React from "react";
-import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Container } from 'reactstrap';
-
-//import { View } from 'react-native';
 
 const Styles = styled.div`
   .navbar {
@@ -17,6 +14,22 @@ const Styles = styled.div`
       color: white;
     }
   }
+
+  .footer {
+    position: contain;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    text-align: center;
+    transition: 200ms;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    &:hover {
+    box-shadow: 0 0 2rem gray;
+    }
+ }
 `;
 
 // footer {
@@ -32,15 +45,12 @@ const Styles = styled.div`
 
 function Footer() {
   return (
-    <div>
-       <Container style={{backgroundColor:'black', textAlign:'center', width:'stretch'}}>
-        <p style={{ textAlign:'center', color: 'white'}}>© 2020 • The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020)</p>
-      </Container>
-   
-    </div>
-
-    
-    
+    <Styles>
+      <div className = "footer">  
+          <p style={{ textAlign:'center', color: 'white', justifyContent: 'center', alignItems: 'center'}}>© 2021 • The 6th International Conference on Soft Computing 
+            in Data Science 2021 (SCDS2021) <br/>scds2021@uitm.edu.my</p>           
+      </div> 
+    </Styles>
   );
 }
 
