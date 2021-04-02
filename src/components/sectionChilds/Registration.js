@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 export const Registration = () => (
   <div>
   <Helmet>
-    <title>The 6th International Conference on Soft Computing in Data Science 2020 (SCDS2020) - Registration</title>
+    <title>The 6th International Conference on Soft Computing in Data Science 2021 (SCDS2021) - Registration</title>
   </Helmet>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
