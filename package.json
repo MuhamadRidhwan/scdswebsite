@@ -2,7 +2,7 @@
   "name": "react-bootstrap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muhamadridhwan.github.io/scdswebsite/",
+  "homepage": "https://muhamadridhwan.github.io/scdsTesting/",
   "dependencies": {
     "@material-ui/core": "^4.9.0",
     "@opuscapita/react-responsive-navbar": "^3.4.0",
@@ -25,7 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d src",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
